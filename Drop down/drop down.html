@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drop Down</title>
+        <link rel="stylesheet" href="drop down.css">
+    </head>
+    <body  >
+      
+        <div id="note">
+            <marquee scrollamount="15">
+            <p>Note: Please use Live Server</p>
+            </marquee>
+        </div>
+       
+
+       <div id="one">
+        <h2>Select your State and District</h2><hr>
+        <form id="two">
+            <select onchange="getStates(this.value)" id="slct1">
+                <option value="">Choose your State</option>
+                <option value="TamilNadu">TamilNadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Andhra pradesh">Andhra pradesh</option>
+                <option value="Karnataka">Karnataka</option>
+            </select>
+         
+            <select name="districts" id="districts"  id="slct2">
+                <option value="">Choose your District</option>
+            </select>
+        </form>
+        <script src="drop down.js"></script>
+        </div>
+    </body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

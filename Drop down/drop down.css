@@ -1,0 +1,41 @@
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+#two{
+    margin-left: 40%;
+    margin-top:100px;
+}
+select{
+    font-family:cursive;
+    background-color:burlywood;
+    padding: 10px 0px;
+    margin: 10px 15px;
+    
+    
+}
+option{
+    font-family:cursive;
+    background-color:aqua;
+}
+body{
+    background-color: gray;
+    
+}
+
+#note{
+    position: absolute;
+    text-align: center;
+    margin-top: 75px;
+    box-shadow: 5px 5px 10px black;
+    background-color:cadetblue;
+    width:40%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 32%;
+    border-radius: 20px;
+    border: 2px  groove;
+    
+}
+
